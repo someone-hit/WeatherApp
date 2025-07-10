@@ -63,7 +63,7 @@ const WeatherApp = () => {
 
         {weather && (
           <div className="grid  md:grid-cols-2 gap-6 items-start">
-            <div className="text-center backdrop-blur-xs rounded-2xl py-5`">
+            <div className="text-center backdrop-blur-xs rounded-2xl py-5">
               <h2 className="text-xl font-semibold">{weather.location.name}, {weather.location.country}</h2>
               <p className="text-2xl font-medium mt-2 flex flex-col items-center">
                 <img src={weather.current.condition.icon} alt="icon" />
